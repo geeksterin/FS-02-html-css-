@@ -1,0 +1,56 @@
+.head{
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.main{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.main label{
+    font-weight: 600;
+}
+
+.main div{
+    margin-top: 1rem;
+}
+
+.main input{
+    padding-left: 1rem;
+    border-radius: 0.4rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+
+.main input::placeholder{
+    color:black;
+}
+
+.email{
+    margin-left: 2.1rem;
+}
+
+.password{
+    margin-left: 0.8rem;
+}
+.confirmpassword{
+    margin-left: -2.9rem;
+}
+
+.btn{
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 8rem;
+    height: 1.5rem;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: cyan;
+}
+
+.btn a{
+    text-decoration: none;
+    color:black;
+}
