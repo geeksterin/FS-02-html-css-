@@ -1,0 +1,70 @@
+/* universla selector */
+*{
+    font-size: 30px;
+}
+/* class selector */
+.heading2{
+    color: greenyellow;
+}
+
+/* id selector */
+#heading1{
+    color: red;
+}
+
+#heading1{
+    color: yellowgreen;
+}
+
+#heading1{
+    color: cyan;
+}
+
+/* type selector */
+h1{
+    color: darkblue;
+}
+#para1{
+    color: brown;
+}
+
+#para2{
+    color: blue;
+}
+#para3{
+    color: cyan;
+}
+#para4{
+    color: green;
+}
+
+#para1 span{
+    color: green;
+}
+
+div p h1{
+    color: darkblue;
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+/* 
+a:link{
+    color: cyan;
+}
+
+a:visited{
+    color: green;
+} */
+
+#para1{
+    color: purple;
+}

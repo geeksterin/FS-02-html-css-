@@ -1,0 +1,112 @@
+#heading1{
+    text-align: center;
+}
+
+
+main{
+    /* border: 5px solid brown; */
+    /* width: 50%; */
+    /* width: 25%; */
+}
+
+/* body{
+    font-size: 2em;
+} */
+
+/* 
+html{
+    font-size: 3rem;
+} */
+/* header{
+    font-size: 4em;
+} */
+
+
+
+
+/* body{
+    font-size: 4em;
+}
+h1{
+    font-size: 2rem;
+}
+main{
+    font-size: 1.5em;
+}
+section{
+    font-size: 2em;
+}
+article{
+    font-size: 3em;
+}
+h3{ 
+    font-size: 3em;
+}
+
+ */
+
+
+
+section{
+    /* border: 5px dashed cyan; */
+    /* //viewport width */
+    /* width: 50vw; */
+}
+/* 
+header{
+    width: 60%;
+    border: 5px solid red;
+}
+
+h1{
+    border: 5px dashed green;
+    width: 50%;
+} */
+
+
+
+
+
+
+
+
+body{
+    /* background-color: cyan; */
+    background-image: url('./download.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+p{
+    /* color: cyan; */
+}
+/* div{
+    background-color: black;
+    height: 75px;
+    width: 50%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* div{ */
+    /* height: 200px; */
+    /* width: 200px; */
+    /* background-color: aqua; */
+    /* background-color: #00FFFF; */
+    /* background-color: rgb(25, 125, 150); */
+    /* background-color: rgba(25, 125, 150, 0.5); */
+    /* background-color: hsl(180, 100%, 50%); */
+    /* background-color: hsla(180, 100%, 50%, 0.5); */
+/* } */
+
+/* body{
+    background-color: red;
+} */
