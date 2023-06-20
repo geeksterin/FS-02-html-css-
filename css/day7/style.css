@@ -1,0 +1,36 @@
+#heading1{
+    text-align: center;
+}
+
+#main-cointainer{
+    display: flex;
+    border: 2px solid cyan;
+    /* flex-direction: row; */
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+}
+
+.divi{
+    border: 2px solid green;
+    height: 100px;
+    /* width: 100px; */
+    margin: 20px;
+    /* margin-top: 17vh; */
+}
+
+#divi3{
+    flex-shrink: 0;   
+}
+
+#divi2{
+    flex-shrink: 3;
+    width: 400px;
+}
+
+#divi1{
+    flex-grow: 0;
+    width: 400px;
+}
