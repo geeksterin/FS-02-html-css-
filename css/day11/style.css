@@ -1,0 +1,40 @@
+:root{
+    --blue:#1e90ff;
+    --akhil:#ffffff;
+    --sharma:5%;
+}
+
+body{
+    background-color: var(--blue);
+}
+
+h2{
+    border-bottom: 2px solid var(--blue);
+}
+
+.conatiner{
+    color: var(--blue);
+    background-color: var(--akhil);
+    padding: 15px;
+}
+
+button{
+    background-color: var(--akhil);
+    color: #1e90ff;
+    border: 2px solid var(--blue);
+    padding: var(--sharma);
+    margin: var(--sharma);
+}
+
+
+@media screen and (max-width:480px) {
+    .conatiner{
+        color: var(--akhil);
+        background-color: var(--blue);
+    }
+
+    button{
+        background-color: red;
+        color: black;
+    }
+}

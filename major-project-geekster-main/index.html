@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Responsive Website Travel</title>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo" id="logo">Travel</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link" id="home">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#discover" class="nav__link">Discover</a>
+            </li>
+            <li class="nav__item">
+              <a href="#place" class="nav__link">Places</a>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Home section  -->
+      <section class="home" id="">
+        <img src="./assets/img/home1.jpg" class="home_img" />
+
+        <div class="home_container container">
+          <div class="home_data">
+            <span class="home_data-subtitle">Discover your place</span>
+            <h1 class="home_data-title">
+              Explore The <br />
+              Best
+              <b
+                >Beautiful <br />
+                Beaches</b
+              >
+            </h1>
+            <a href="" class="button">Explore</a>
+          </div>
+
+          <div class="floatContainer">
+            <div class="home_info">
+              <div class="home_info_content">
+                <span class="home_info-title">5 best places to visit</span>
+                <a>More <i class="ri-arrow-right-line"></i></a>
+              </div>
+              <div class="home_info-overlay">
+                <img src="./assets/img/home2.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="home__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- AboUT SECTION  -->
+      <section class="about_section">
+        <div class="about_container container">
+          <div class="about_data">
+            <h2 class="about_title">
+              More Information <br />
+              About The Best Beaches
+            </h2>
+            <p class="about_description">
+              You can find the most beautiful and pleasant places at the best
+              prices with special discounts, you choose the place we will guide
+              you all the way to wait, get your place now.
+            </p>
+            <a href="#" class="button">Reserve a place </a>
+          </div>
+          <div class="about_img">
+            <div class="about_image-overlay">
+              <img class="about_img-one" src="./assets/img/about1.jpg" />
+            </div>
+            <div class="about_image-overlay">
+              <img class="about_img-two" src="./assets/img/about2.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE SECTION  -->
+      <section class="experience_section">
+        <h2 class="section_title">
+          With Our Experience <br />
+          We Will Serve You
+        </h2>
+        <div class="experience_container container">
+          <div class="experience_content">
+            <div class="experience_data">
+              <h2 class="experience_number">20</h2>
+              <span class="experience_description">Year <br />Experience</span>
+            </div>
+            <div class="experience_data">
+              <h2 class="experience_number">75</h2>
+              <span class="experience_description"
+                >Complete<br />
+                tours</span
+              >
+            </div>
+            <div class="experience_data">
+              <h2 class="experience_number">650+</h2>
+              <span class="experience_description"
+                >Tourist<br />
+                destination</span
+              >
+            </div>
+          </div>
+          <div class="experience_img">
+            <div class="experience_image-overlay">
+              <img
+                class="experience_img-one"
+                src="./assets/img/experience1.jpg"
+              />
+            </div>
+            <div class="experience_image-overlay">
+              <img
+                class="experience_img-two"
+                src="./assets/img/experience2.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEO SECTION  -->
+      <section class="video_section">
+        <h2 class="section_title">Video Tour</h2>
+        <div class="video_container container">
+          <p class="video_description">
+            Find out more with our video of the most beautiful and
+            <br />pleasant places for you and your family.
+          </p>
+          <div class="video_content">
+            <video class="video-file">
+              <source src="./assets/video/video.mp4" type="video/mp4" />
+            </video>
+            <button>Play</button>
+          </div>
+        </div>
+      </section>
+      <!-- PLACES -->
+      <section class="place sectiona" id="place">
+        <h2 class="section_titlea">Choose Your Place</h2>
+
+        <!-- this div will contain all the cards -->
+        <div class="place_container containera grida">
+          <div class="place_card">
+            <img src="assets/img/place1.jpg" alt="" class="place_img" />
+            <!-- 1st Place card -->
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,8</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Bali</h3>
+                <span class="place_subtitle">Indonesia</span>
+                <span class="place_price">$2499</span>
+              </div>
+            </div>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <div class="place_card">
+            <img src="assets/img/place2.jpg" alt="" class="place_img" />
+            <!-- 1st Place card -->
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">5,0</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Bora Bora</h3>
+                <span class="place_subtitle">Polinesia</span>
+                <span class="place_price">$1599</span>
+              </div>
+            </div>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <div class="place_card">
+            <img src="assets/img/place3.jpg" alt="" class="place_img" />
+            <!-- 1st Place card -->
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,9</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Hawali</h3>
+                <span class="place_subtitle">EE.UU</span>
+                <span class="place_price">$3499</span>
+              </div>
+            </div>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <div class="place_card">
+            <img src="assets/img/place4.jpg" alt="" class="place_img" />
+            <!-- 1st Place card -->
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,8</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Whitehaven</h3>
+                <span class="place_subtitle">Australia</span>
+                <span class="place_price">$2499</span>
+              </div>
+            </div>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <div class="place_card">
+            <img src="assets/img/place5.jpg" alt="" class="place_img" />
+            <!-- 1st Place card -->
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,8</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Hvar</h3>
+                <span class="place_subtitle">Crocia</span>
+                <span class="place_price">$1999</span>
+              </div>
+            </div>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- subscribe section -->
+      <section class="subscribe sectiona">
+        <div class="subscribe_bg containera">
+          <div class="subscribe_conatiner containera"> 
+            <h2 class="section_title subscribe_title">Subscribe Our <br> Newsletter</h2>
+            <p class="subscribe_description">Subscribe to our newsletter and get a special 30% discount.</p>
+
+            <form action="" class="subscribe_form">
+              <input type="email" name="" placeholder="Enter Your Email" id="" class="subscribe_input">
+
+              <button class="button btn">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sponsors -->
+    </main>
+  </body>
+</html>
