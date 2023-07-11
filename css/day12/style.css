@@ -1,0 +1,27 @@
+
+
+.card{
+    border-radius: .5rem;
+    border: 1px solid grey;
+    background-color: lightgray;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: cyan;
+}
+
+.card_img{
+    align-items: center;
+    padding: 1rem 0rem 1rem 1rem;
+    aspect-ratio: 1 / 1;
+}
+
+.card_content{
+    line-height: 2rem;
+    margin: 0.75rem 1rem;
+}
